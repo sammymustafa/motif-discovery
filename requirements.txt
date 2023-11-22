@@ -1,0 +1,16 @@
+numpy
+pandas
+scipy
+matplotlib
+seaborn
+pyranges
+biopython
+pyjaspar
+pysam
+pyfaidx
+logomaker
+anndata
+torch
+scikit-learn
+tqdm
+hmmlearn
