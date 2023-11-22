@@ -1,25 +1,16 @@
-from setuptools import setup, find_packages
-
-setup(
-    name='motif-discovery',
-    version='0.1',
-    packages=find_packages(),
-    install_requires=[
-        'numpy',
-        'pandas',
-        'scipy',
-        'matplotlib',
-        'seaborn',
-        'pyranges',
-        'biopython',
-        'pysam',
-        'pyfaidx',
-        'logomaker',
-        'anndata',
-        'torch',
-        'scikit-learn',
-        'tqdm',
-        'hmmlearn'
-    ],
-    python_requires='>=3.6',
-)
+import numpy as np
+import pandas as pd
+import scipy.stats
+import matplotlib.pyplot as plt
+import seaborn as sns
+import pyranges as pr
+import pysam
+import torch
+import torch.nn as nn
+import torch.nn.functional as F
+import torch.optim as optim
+from sklearn.model_selection import train_test_split
+from pyfaidx import Fasta
+from tqdm import tqdm
+import random
+import time
